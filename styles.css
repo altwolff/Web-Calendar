@@ -84,6 +84,10 @@ body {
     color: #FFF;
 }
 
+.date.active:hover {
+    background: #F14D5C;
+}
+
 .date.inactive {
     color: #D2D2D2;
 }
@@ -94,7 +98,16 @@ body {
 
 .dropdown {
     position: absolute;
-    top: 10px;  
-    left: 10px;  
+    top: 10px;
+    left: 10px;
     z-index: 1000;
+}
+
+.date.holiday {
+    background: #50CDA5;
+    color: #FFF;
+}
+
+.date.holiday:hover {
+    background: #48BAA9;
 }
